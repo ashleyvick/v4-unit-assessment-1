@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+var gitDefinition = "a distributed version-control system for tracking changes in any set of files, originally designed for coordinating work among programmers cooperating on source code during software development."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = "a provider of Internet hosting for software development and version control using Git."
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -34,6 +36,10 @@
 */
 
 //CODE HERE
+let init = {
+    description: "It turns a directory into an empty git repository",
+    code: "git init"
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +48,10 @@
 */
 
 //CODE HERE
+let clone = {
+    description: "used to target an existing repository and create a clone, or copy of the target repository.",
+    code: "git clone"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +60,10 @@
 */
 
 //CODE HERE
+let status = {
+    description: "explore the state of the staging area and pending commit.",
+    code: "git status"
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +72,10 @@
 */
 
 //CODE HERE
+let add = {
+    description: "adds changes in the working directory to the staging area.",
+    code: "git add ."
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +84,10 @@
 */
 
 //CODE HERE
+let commit = {
+    description: "saves all currently staged changes of the project",
+    code: "git commit -m"
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +96,10 @@
 */
 
 //CODE HERE
+let addRemote = {
+    description:  "all team members use to exchange their changes.",
+    code: "git remote add origin https://github.com/ashleyvick?tab=repositories"
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -82,3 +108,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: "pushes all repositories to Github",
+    code: "git push origin master"
+}
